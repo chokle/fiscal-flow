@@ -42,9 +42,11 @@ export function HomePage() {
             Most Canadian tradespeople miss out on <span className="text-foreground font-semibold">$5,000+</span> in tax deductions every year. Fiscal Flow helps you track your travel, tools, and credits in seconds — so you get paid, not the taxman.
           </motion.p>
           <motion.div variants={fadeUp}>
-            <Button size="lg" className="btn-gradient px-10 py-6 text-lg font-bold rounded-xl">
-              TRY THE FREE CALCULATOR
-              <ArrowRight className="w-5 h-5 ml-2" />
+            <Button size="lg" className="btn-gradient px-10 py-6 text-lg font-bold rounded-xl" asChild>
+              <a href="https://fiscal-flow-path.base44.app" target="_blank" rel="noopener noreferrer">
+                TRY THE FREE CALCULATOR
+                <ArrowRight className="w-5 h-5 ml-2" />
+              </a>
             </Button>
             <p className="text-sm text-muted-foreground mt-3">No credit card. No bank login required.</p>
           </motion.div>
@@ -131,9 +133,11 @@ export function HomePage() {
             Find out in under 60 seconds how much money you could be getting back from the CRA this year.
           </motion.p>
           <motion.div variants={fadeUp}>
-            <Button size="lg" className="btn-gradient px-10 py-6 text-lg font-bold rounded-xl">
-              TRY THE FREE CALCULATOR
-              <ArrowRight className="w-5 h-5 ml-2" />
+            <Button size="lg" className="btn-gradient px-10 py-6 text-lg font-bold rounded-xl" asChild>
+              <a href="https://fiscal-flow-path.base44.app" target="_blank" rel="noopener noreferrer">
+                TRY THE FREE CALCULATOR
+                <ArrowRight className="w-5 h-5 ml-2" />
+              </a>
             </Button>
             <p className="text-sm text-muted-foreground mt-3">No credit card. No bank login required.</p>
           </motion.div>
