@@ -2,7 +2,7 @@
 
 A modern personal finance tracking application built with React, TypeScript, and Cloudflare Workers. Track expenses, manage budgets, and gain insights into your spending habits with a beautiful, responsive interface.
 
-[cloudflarebutton]
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/chokle/fiscal-flow)
 
 ## Features
 
@@ -99,7 +99,7 @@ Built-in endpoints:
 
 ## Deployment
 
-[cloudflarebutton]
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/chokle/fiscal-flow)
 
 ### Manual Deployment
 
